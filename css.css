@@ -1,0 +1,66 @@
+@import url('https://chainsawxiv.github.io/DST/common/css/csx_edit.css');
+
+.ds_starwarsd6simple .points_and_wounds {
+        margin: 1em auto;
+        border: 1px lightgrey solid;
+        box-shadow: lightgrey 3px 3px 3px;
+        padding: 0.7em;
+        width: fit-content;
+    }
+
+    .ds_starwarsd6simple .basic_info div {
+        border-bottom: 1px solid lightgray;
+        padding: 0.3em;
+    }
+
+   .ds_starwarsd6simple .avatarWrapper {
+      float: right;
+      max-width: 30%;
+  }
+ .ds_starwarsd6simple .attributeLabel {
+        width: 12em;
+        display: inline-block;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    .ds_starwarsd6simple .attributeLabel:after {
+        content: ': '
+    }
+
+.ds_starwarsd6simple .attributeTables {
+	display: flex; 
+	flex-flow: row wrap; 
+	justify-content: left;
+	margin-bottom: 1em;
+	margin-top: 1em;
+        min-width: 100%;
+}
+
+.ds_starwarsd6simple .attributeTables div {
+	flex-basis: 10em; 
+	margin: 0.15em;
+	padding: 0.3em;
+	border: 1px solid lightgray;
+}
+
+.ds_starwarsd6simple .attributeTables .attribute {
+	font-weight: bold;
+}
+
+.ds_starwarsd6simple .details div {
+	margin-bottom: 0.3em;
+}
+
+.ds_starwarsd6simple .details hr {
+	margin-bottom: 0.3em;
+	border-top: lightgrey 1px solid;
+	width: 100px;
+	margin-left: 1em;
+	margin-right: auto;
+}
+
+.ds_starwarsd6simple .bio {
+	margin-bottom: 1em;
+	margin-top: 1em;
+}
